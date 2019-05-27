@@ -2,3 +2,25 @@
   Write your styles/CSS for App.js here and import into the component that you need 
   IF you'd like to attempt to use less you'll have to research how to do this with Create React App
 */
+.card-wrapper {
+  max-width: 500px;
+  max-height: 500px;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Nunito+Sans|Open+Sans&display=swap');
+
+body {
+  font-family: 'Nunito Sans', 'Open Sans';
+}
+
+html, body, #root {
+  height: 100%;
+  padding: 0;
+}
+
+#root {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}

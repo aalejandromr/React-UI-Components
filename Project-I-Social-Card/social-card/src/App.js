@@ -1,16 +1,26 @@
 import React from 'react';
 import './App.css';
+import HeaderContainer from './components/HeaderComponents/HeaderContainer';
+import CardContainer from './components/CardComponents/CardContainer';
 
 const App = () => {
   return (
-    <div>
-      <h3>Welcome to React Social Card!</h3>
-      <p>
-        Begin by exploring the `components` directory. You'll notice we have a
-        few files that we've already included in there to get you started right
-        away building components. You'll need to make sure you include your
-        components that you build in this file to watch your app come to life
-      </p>
+    <div className="card-wrapper">
+      <HeaderContainer 
+        headerText="Lambda School"
+        contentText="Let's learn React by building simple interfaces with components. Don't try to
+        overthink it, just keep it simple and have fun. Once you feel comfortable using components
+        you are well on your way to mastering React!"
+      />
+      
+      <CardContainer 
+        imgSrc="https://www.tadigital.com/wp-content/uploads/2017/08/ReactJs-And-AEM-Banner.jpg" 
+        imgAlt="React Banner" 
+        cardContentHeader="Get Started with React"
+        cardContentText="React makes it painless to create interactive UIs. Design simple views
+        for each state in your application."
+      />
+      
       <p>
         <strong>
           Don't forget to `default export` your components and import them here

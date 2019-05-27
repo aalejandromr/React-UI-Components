@@ -1,1 +1,24 @@
 /* All styles for your Card Components live here */
+.card-container {
+  display: flex;
+  flex-direction: column;
+  padding-left: 60px;
+  box-sizing: border-box;
+}
+
+
+.card-container img {
+  max-height: 200px;
+}
+
+.card-container .card-content {
+  border: 1px solid grey;
+  border-radius: 0px 0px 5px 5px;
+  padding: 5%;
+  box-sizing: border-box;
+}
+
+h2 {
+  margin-top: 0;
+  font-size: 18px;
+}
