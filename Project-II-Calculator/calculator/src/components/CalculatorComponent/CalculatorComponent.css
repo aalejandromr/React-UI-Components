@@ -1,0 +1,9 @@
+.calculator-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.calculator-wrapper {
+  width: 500px;
+  height: 500px;
+}
