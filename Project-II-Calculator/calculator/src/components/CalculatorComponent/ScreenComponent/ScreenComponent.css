@@ -1,0 +1,7 @@
+.calculator-screen {
+  height: 100px;
+  width: 100%;
+  background: black;
+  color: white;
+  overflow-wrap: break-word;
+}

@@ -1,0 +1,13 @@
+.calculator-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.calculator-wrapper {
+  width: 200px;
+  height: 500px;
+}
+
+.keypad > div, .side-keypad > div {
+  cursor: pointer;
+}
